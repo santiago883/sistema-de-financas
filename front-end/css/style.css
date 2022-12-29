@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(61, 116, 236);
+}
+
+.display{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.painelEsquerda{
+    background: rgb(161, 168, 168);
+    height: 95.8vh;
+    width: 20%;
+
+}
