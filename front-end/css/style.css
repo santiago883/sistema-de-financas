@@ -70,8 +70,6 @@ header{
     overflow:auto;
 }
 
-
-
 .painelDireita{
     width: 15%;
     height: 95vh;
@@ -95,22 +93,63 @@ header{
     background-color: cadetblue;
 }
 
-tr{
-    width: 100%;
-    background-color: blue;
-}
 
-tr :nth-child(1){
-    width: 500px;
-}
-
-.container-dados{
+.container-list{
     width: 95%;
     background-color: violet;
+    margin: 10px auto;
+}
+
+.dados{
+    display: flex;
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px;
+    width: 100%;
+    background-color: yellow;
+}
+
+
+
+.container-dado{
     text-align: center;
+    background-color: cadetblue;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
 }
 
-.container-dados tr{
-    width: 2000px;
+.dado{
+    
+    justify-content: space-evenly;
+    border-right: 1px solid black;
+    width: 100%;
+    background-color: violet;
+
 }
 
+.dado p{
+    width: 100%;
+}
+
+.pc{
+    border-left: 1px solid black;
+}
+
+.container-itens{
+    width: 97%;
+    background-color: violet;
+    margin: 10px auto;
+    
+}
+
+
+.iten{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.iten p{
+    width: 100%;
+}
